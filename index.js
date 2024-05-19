@@ -4,7 +4,8 @@
 
 import {AppRegistry} from 'react-native';
 //import App from './App';
-import MyStudy from './official-documentation-study/flexbox/flex'
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => MyStudy);
+import MKSZ628App from './mksz628-study/MKSZ628App'
+
+AppRegistry.registerComponent(appName, () => MKSZ628App);
