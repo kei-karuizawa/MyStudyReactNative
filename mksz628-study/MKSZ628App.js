@@ -5,7 +5,7 @@ import {
   View,
   StyleSheet,
 } from 'react-native'
-import MKSZ628Course68Task from './chapter-6/6-8/MKSZ628Course68Task'
+import MKSZ628Course711Example1Pressable from './chapter-7/7-11/example1/MKSZ628Course711Example1Pressable'
 
 const MKSZ628App = () => {
 
@@ -16,7 +16,7 @@ const MKSZ628App = () => {
         backgroundColor='#FFFFFF'
       />
       <View style={styles.container}>
-        <MKSZ628Course68Task />
+        <MKSZ628Course711Example1Pressable />
       </View>
     </SafeAreaView>
   )
