@@ -2,9 +2,9 @@
 
 // 1. 拆分渲染。
 // 拆分组件的三种方法：
-// （1）：如 `MKSZ628Course67Example1File1` 所示，将组件拆分成几个函数。
-// （2）：如 `MKSZ628Course67Example1File2` 所示，将组件通过属性值传入。
-// （3）：如 `MKSZ628Course67Example1File3` 所示，将组件作为子视图传入，`children` 是 `props` 自带的属性。
+// （1）：如 `MKSZ628Course0607Example1File1` 所示，将组件拆分成几个函数。
+// （2）：如 `MKSZ628Course0607Example1File2` 所示，将组件通过属性值传入。
+// （3）：如 `MKSZ628Course0607Example1File3` 所示，将组件作为子视图传入，`children` 是 `props` 自带的属性。
 
 // 2. 内联样式与样式表以及样式组合。
 // 样式表 `StyleSheet`。

@@ -24,7 +24,7 @@ const ViewCCC = () => {
   )
 }
 
-function MKSZ628Course67Example1File1() {
+function MKSZ628Course0607Example1File1() {
   return (
     <SafeAreaView>
       {ViewAAA()}
@@ -34,4 +34,4 @@ function MKSZ628Course67Example1File1() {
   )
 }
 
-export default MKSZ628Course67Example1File1
+export default MKSZ628Course0607Example1File1

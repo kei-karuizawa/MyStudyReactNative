@@ -1,6 +1,6 @@
 import { SafeAreaView } from 'react-native'
 
-function MKSZ628Course67Example1File2(props) {
+function MKSZ628Course0607Example1File2(props) {
   return (
     <SafeAreaView>
       {props.customView()}
@@ -8,4 +8,4 @@ function MKSZ628Course67Example1File2(props) {
   )
 }
 
-export default MKSZ628Course67Example1File2
+export default MKSZ628Course0607Example1File2

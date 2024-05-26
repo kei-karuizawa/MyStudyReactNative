@@ -1,7 +1,7 @@
 import { SafeAreaView, StyleSheet, Text } from 'react-native'
 import { useEffect, useState } from 'react'
 
-function MKSZ628Course68Task() {
+function MKSZ628Course0608Task() {
   const [counter, setCounter] = useState(0)
 
   // useEffect(() => {
@@ -54,4 +54,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default MKSZ628Course68Task
+export default MKSZ628Course0608Task

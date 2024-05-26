@@ -5,8 +5,8 @@ import {
   View,
   StyleSheet,
 } from 'react-native'
-import MKSZ628Course711Example1Pressable from './chapter-7/7-11/example1/MKSZ628Course711Example1Pressable'
 
+import CustomInput from './chapter-15/15-2/example1/CustomInput'
 const MKSZ628App = () => {
 
   return (
@@ -16,7 +16,7 @@ const MKSZ628App = () => {
         backgroundColor='#FFFFFF'
       />
       <View style={styles.container}>
-        <MKSZ628Course711Example1Pressable />
+        <CustomInput />
       </View>
     </SafeAreaView>
   )
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: 'white',
-    marginTop: 30,
+    marginTop: 0,
   }
 })
 
