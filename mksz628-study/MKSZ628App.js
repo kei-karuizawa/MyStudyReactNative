@@ -6,7 +6,8 @@ import {
   StyleSheet,
 } from 'react-native'
 
-import CustomInput from './chapter-15/15-2/example1/CustomInput'
+import Anim10 from './chapter-9/9-12/example1/Anim10'
+
 const MKSZ628App = () => {
 
   return (
@@ -16,7 +17,7 @@ const MKSZ628App = () => {
         backgroundColor='#FFFFFF'
       />
       <View style={styles.container}>
-        <CustomInput />
+        <Anim10 />
       </View>
     </SafeAreaView>
   )
