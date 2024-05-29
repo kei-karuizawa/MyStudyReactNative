@@ -6,7 +6,7 @@ import {
   StyleSheet,
 } from 'react-native'
 
-import Anim10 from './chapter-9/9-12/example1/Anim10'
+import MKSZ628Course0719PersonInfo from './chapter-7/7-19/MKSZ628Course0719PersonInfo'
 
 const MKSZ628App = () => {
 
@@ -17,7 +17,7 @@ const MKSZ628App = () => {
         backgroundColor='#FFFFFF'
       />
       <View style={styles.container}>
-        <Anim10 />
+        <MKSZ628Course0719PersonInfo />
       </View>
     </SafeAreaView>
   )
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     backgroundColor: 'white',
     marginTop: 0,
   }
