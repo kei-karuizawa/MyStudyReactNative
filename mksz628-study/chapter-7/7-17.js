@@ -8,3 +8,8 @@
 
 // api：
 // `setBarStyle`、`setBackGroundColor`、`setTranslucent`、`setHidden`。
+
+// 注意：
+// 非沉浸式的状态栏在使用 `KeyboardAvoidingView` + `Modal` 时会有问题，会导致收起键盘时 `Modal` 上下跳动，出现视图异常。
+// 解决方案 1：设置 `KeyboardAvoidingView` 的 `keyboardVerticalOffset={1}`，显示指定一个小的数字来避免，数字不可以是 0 或者负数，但这种情况键盘收起后，`modal` 会向上偏移一段距离。无法解决。
+// 解决方案 2：设置状态栏为沉浸式，同时设置 `KeyboardAvoidingView` 的 `keyboardVerticalOffset={0}` 即可完美解决。

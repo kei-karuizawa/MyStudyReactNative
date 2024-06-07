@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button, View } from 'react-native'
-import ConsumeList from './ConsumeList.tsx'
+import ConsumeList from './ConsumeList'
 
 export default () => {
 

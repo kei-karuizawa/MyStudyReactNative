@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Button, View } from 'react-native'
-import InfoView from './InfoView.tsx'
-import InfoView2 from './InfoView2.tsx'
+import InfoView2 from './InfoView2'
 
 export default () => {
 

@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, FlatList, Switch, Button, ListRenderItemInfo, T
 import { useState, useMemo, useCallback } from 'react'
 import { MKSZ628Course1402Example1Data1, MKSZ628Course1402Example1Data2 } from './MKSZ628Course1402Example1Data'
 import { MKSZ628Course1402Example1TypeColors } from './MKSZ628Course1402Example1TypeColors'
+import React from 'react'
 
 export default () => {
   const [data, setData] = useState<any>(MKSZ628Course1402Example1Data1)
